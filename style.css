@@ -1,0 +1,105 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .navbar{
+    background-color: black;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li{
+    color: white;
+}
+.navbar > ul{
+    margin-left: 200px;
+}
+.navbar li{
+    list-style-type: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+ .navbar li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0,0.8);
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav h1{
+    font-size: 40px;
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav li{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav li{
+    padding: 8px;
+}
+nav li:hover{
+    border-bottom: 2px solid white;
+}
+/* hero starts */
+.hero{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-image: url("hero.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+
+}
+.hero h1{
+    font-size: 55px;
+}
+.hero p{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+/* hero ends  */
+/* mid starts  */
+.head{
+    margin-top: 20px;
+    color: black;
+    text-align:center;
+}
+#about-us > div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#about-us > div > *{
+    margin-bottom: 20px;
+}
+#about-us > div p{
+    line-height: 1.5;
+}
+
+/* mid ends  */

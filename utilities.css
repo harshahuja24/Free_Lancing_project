@@ -1,0 +1,37 @@
+.d-flex{
+    display: flex;
+}
+.text-success{
+    color: #28a745;
+}
+.icon
+{
+    height: 40px;
+    color: white;
+}
+.btn-success{
+    background-color: #28a745;
+    color: white;
+}
+.btn{
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.d-col{
+    flex-direction: column;
+}
+.text-muted{
+    color: #6c757d;
+}
+.text-primary{
+    color:lightskyblue;
+
+}
+.icon-success{
+    background-color: #28a745;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+}
