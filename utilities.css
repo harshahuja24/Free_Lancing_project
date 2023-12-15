@@ -35,3 +35,15 @@
     border-radius: 50px;
     color: white;
 }
+.bg-light{
+    color: #333;
+    background-color: #f4f4f4;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.bg-dark{
+    color: #f4f4f4;
+    background-color:#333;
+
+}

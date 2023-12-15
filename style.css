@@ -1,6 +1,9 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+img{
+    width: 100%;
+}
 /* .navbar{
     background-color: black;
     height: 100px;
@@ -39,6 +42,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 nav h1{
     font-size: 40px;
@@ -101,5 +105,184 @@ nav li:hover{
 #about-us > div p{
     line-height: 1.5;
 }
+/* .left, .right{
+    flex-basis: 50%;
+}
 
 /* mid ends  */
+
+/* .success h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.left{
+    text-align: start;
+    margin: 50px;
+    padding: 50px;
+    
+} */ 
+/* .right{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+.left, .right{
+    /* flex-basis: 50%; */
+    flex: 1;
+}
+.left{
+    padding: 100px;
+}
+#success{
+    margin: 50px;
+}
+.left h2{
+    font-size: 30px;
+}
+.left > p{
+    font-size: 22px;
+    margin: 1.5rem 0px;
+}
+.right img{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 30px;
+    right: 10px;
+
+}
+/* kkkk */
+/* .right1{
+    padding: 100px;
+}
+#success{
+    margin: 50px;
+}
+.right1 h2{
+    font-size: 30px;
+}
+.right1 > p{
+    font-size: 22px;
+    margin: 1.5rem 0px;
+}
+.left1 img{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 30px;
+    right: 10px;
+
+} */
+.row-reverse .right img{
+    left: 30%;
+}
+.right img{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 10%;
+    right: 10%;
+
+}
+.job ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.job ul li{
+    list-style-type:none;
+}
+.job ul li img{
+    height: 200px;
+    width: 300px;
+    margin:10px; 
+}
+.job img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.team img{
+    border-radius: 50%;
+    margin: 30px;
+    width: 350px;
+    height: 300px;
+}
+.team{
+    flex-direction: row;
+    justify-content: center;
+   align-items: end;
+}
+.team1{
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.l1, .r1{
+    flex-basis: 50%;
+    margin: 30px;
+    
+}
+.l1 img{
+    width: 200px;
+    height: 200px;
+}
+.l1{
+    background-image: url("images/images2/home/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+form .btn-success{
+    text-align: center;
+}
+.col-1, .col-2
+{
+    flex: 1;
+
+}
+.col-2{
+    padding: 50px;
+}
+.col-2 form{
+    justify-content: center;
+}
+form input{
+    bottom: none;
+    padding: 10px;
+    margin: 10px 0px;
+}
+form input:focus{
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+.contact{
+    margin: 50px;
+}
+/* footer{
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+} */
+#socials{
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+#socials i{
+    color: #ffffff;
+    margin: 5px 15px;
+    height: 20px;
+}
+#copyright{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+}
+/* footer ends  */
+
+
+
